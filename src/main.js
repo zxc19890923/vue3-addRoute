@@ -22,7 +22,7 @@ router.beforeEach(async (to, from, next) => {
           "icon": "use-set",
           "name": "用户管理",
           "routerName": 'userSet',
-          "path": "set",
+          "path": "/user/set",
           "component": "views/user/User.vue",
           "redirect": null
       }],
@@ -42,7 +42,7 @@ router.beforeEach(async (to, from, next) => {
           "icon": "test-user",
           "name": "用户测试",
           "routerName": 'testUser',
-          "path": "user",
+          "path": "/test/user",
           "component": "views/user.User.vue",
           "redirect": null
       }]
